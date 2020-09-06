@@ -1,0 +1,122 @@
+.header__panel {
+  padding: 8px 16px;
+  min-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #3951e7 20.77%, #832ab9 91.64%);
+}
+
+.hedaer__language-switcher {
+  position: relative;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 32px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #ffffff;
+
+
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &--en::after {
+    background-image: url("../img/united-kingdom.svg");
+  }
+}
+
+.header__logo {
+  width: 161px;
+  height: 16px;
+}
+
+.header__nav {
+  position: relative;
+  padding: 8px 16px;
+  background-color: #ffffff;
+}
+
+.header__title {
+  position: relative;
+  padding-left: 32px;
+  font-family: "Muller", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  &::after {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url("../../img/logo_badge.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .header__panel {
+    padding: 8px 16px;
+  }
+
+  .header__nav {
+    padding: 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .header__title {
+    font-size: 16px;
+    line-height: 1.2px;
+    padding-left: 38px;
+    margin-right: 32px;
+
+    &::after {
+      left: 0;
+      top: -16px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .header__panel {
+    padding: 8px 40px;
+  }
+
+  .header__nav {
+    padding: 16px 40px;
+    align-items: center;
+  }
+
+  .header__title {
+    font-size: 28px;
+    line-height: 28px;
+    padding-left: 66px;
+    margin-right: 40px;
+
+    &::after {
+      left: 0;
+      top: -16px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
