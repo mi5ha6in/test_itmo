@@ -16,7 +16,7 @@
 }
 
 .section-news__item {
-  width: 288px;
+  max-width: 384px;
   margin-bottom: 32px;
   border-radius: 16px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
@@ -37,10 +37,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-  }
-
-  .section-news__item {
-    width: 384px;
   }
 
   .section-news__heading {
