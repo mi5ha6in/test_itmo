@@ -1,0 +1,75 @@
+.news__link {
+  text-decoration: none;
+  color: $content-light;
+}
+
+.news__img {
+  display: block;
+  width: 100%;
+  height: 168px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.news__wrapper {
+  padding: 16px;
+}
+
+.news__panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.333;
+  color: $content-light;
+}
+
+.news__social-link {
+  position: relative;
+  padding-left: 24px;
+  color: $content-light;
+  text-decoration: none;
+  line-height: 1;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    content: "";
+    width: 16px;
+    height: 9px;
+    background-image: url("../img/vkontakte.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.news__data {
+  text-transform: uppercase;
+}
+
+.news__text {
+  color: $content;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+@media (min-width: $tablet-width) {
+  .news__wrapper {
+    padding: 32px;
+  }
+
+  .news__img {
+    height: 224px;
+  }
+
+  .news__text {
+    color: $content;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+

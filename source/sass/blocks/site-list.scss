@@ -28,7 +28,7 @@
     display: block;
     padding: 4px 0;
     text-decoration: none;
-    color: #222222;
+    color: $content;
     border-bottom: 1px solid $basic-blue;
   }
 }
@@ -47,7 +47,7 @@
 
   .site-list__link {
     font-size: 14px;
-    color: #222222;
+    color: $content;
     text-decoration: none;
   }
 }
