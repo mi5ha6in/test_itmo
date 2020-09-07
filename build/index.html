@@ -21,13 +21,13 @@
       <h1 class="header__title">Лаборатория робототехники</h1>
       <nav class="main-nav main-nav--closed main-nav--nojs">
         <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">Открыть меню</span>
+          <span class="sr-only">Открыть меню</span>
         </button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
               <a class="site-list__link" href="#">
-                О лаборатории
+                О&nbsp;лаборатории
               </a>
             </li>
             <li class="site-list__item">
@@ -55,8 +55,69 @@
       </nav>
     </div>
   </header>
-
-  <script src="js/main.js">
+  <main class="page-main">
+    <div id="mainSlider" class="carousel slide slider" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active slider__item">
+          <img class="slider__img" src="./img/slide_img.jpg" alt="Слайд">
+          <div class="text-left slider__content">
+            <div class="slider__wrapper">
+              <h2 class="slider__titel">Началась подача документов</h2>
+              <p class="slider__text">
+                Программа предполагает углубленное изучение вопросов, связанных с&nbsp;проектированием, исследованием,
+                производством и&nbsp;эксплуатацией мехатронных и&nbsp;робототехнических систем и&nbsp;комплексов.
+              </p>
+              <a class="slider__link button" href="#" role="button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item  slider__item">
+          <img class="slider__img" src="./img/slide_img.jpg" alt="Слайд">
+          <div class="text-left slider__content">
+            <div class="slider__wrapper">
+              <h2 class="slider__titel">Началась подача документов</h2>
+              <p class="slider__text">
+                Программа предполагает углубленное изучение вопросов, связанных с&nbsp;проектированием, исследованием,
+                производством и&nbsp;эксплуатацией мехатронных и&nbsp;робототехнических систем и&nbsp;комплексов.
+              </p>
+              <a class="slider__link button" href="#" role="button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item  slider__item">
+          <img class="slider__img" src="./img/slide_img.jpg" alt="Слайд">
+          <div class="text-left slider__content">
+            <div class="slider__wrapper">
+              <h2 class="slider__titel">Началась подача документов</h2>
+              <p class="slider__text">
+                Программа предполагает углубленное изучение вопросов, связанных с&nbsp;проектированием, исследованием,
+                производством и&nbsp;эксплуатацией мехатронных и&nbsp;робототехнических систем и&nbsp;комплексов.
+              </p>
+              <a class="slider__link button" href="#" role="button">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev slider__control-prev" href="#mainSlider" role="button" data-slide="prev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <rect x="39.5" y="39.5" width="39" height="39" rx="19.5" transform="rotate(-180 39.5 39.5)" stroke="white" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M24 13.8667L22.1081 12L14 20L22.1081 28L24 26.1333L17.7838 20L24 13.8667Z" fill="white" />
+        </svg>
+        <span class="sr-only">Предыдущий</span>
+      </a>
+      <a class="carousel-control-next slider__control-next" href="#mainSlider" role="button" data-slide="next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <rect x="0.5" y="0.5" width="39" height="39" rx="19.5" stroke="white" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M16 26.1333L17.8919 28L26 20L17.8919 12L16 13.8667L22.2162 20L16 26.1333Z" fill="white" />
+        </svg>
+        <span class="sr-only">Следующий</span>
+      </a>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/main.min.js">
   </script>
 </body>
 
