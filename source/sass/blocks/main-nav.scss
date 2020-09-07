@@ -10,7 +10,7 @@
     position: absolute;
     top: 1px;
     right: 0;
-    z-index: 11;
+    z-index: 101;
     display: block;
     width: 24px;
     height: 32px;
@@ -68,8 +68,8 @@
   .main-nav--opened .main-nav__wrapper {
     position: absolute;
     left: 0;
-    right: 0;
-    z-index: 10;
+    right: -16px;
+    z-index: 100;
     min-height: 70vh;
     background-color: #ffffff;
   }

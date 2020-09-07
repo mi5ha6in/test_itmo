@@ -1,0 +1,17 @@
+.button {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 8px 24px;
+  background-color: #f21f5b;
+  color: #f7f9fe;
+  line-height: 32px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+
+@media (min-width: $tablet-width) {
+  .button {
+    font-size: 16px;
+  }
+}
