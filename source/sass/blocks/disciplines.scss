@@ -11,3 +11,9 @@
 .disciplines__heading {
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .disciplines {
+    padding-bottom: 80px;
+  }
+}

@@ -15,9 +15,7 @@
 }
 
 .page-footer__list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  @include list-unstyled();
   margin-bottom: 16px;
 }
 
@@ -28,6 +26,11 @@
   font-size: 14px;
   line-height: 1.7;
   padding-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.page-footer__link:hover {
+  color: $basic-red;
 }
 
 .page-footer__social {
@@ -51,6 +54,11 @@
   color: rgba(250, 250, 250, 0.5);
   display: block;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.page-footer__rules:hover {
+  color: $basic-red;
 }
 
 .page-footer__rules:not(:last-child) {

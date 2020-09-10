@@ -11,8 +11,13 @@
 }
 
 .contacts__tel {
-  color: #3951e3;
+  color: $basic-blue;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contacts__tel:hover {
+  color: $accent-blue;
 }
 
 

@@ -7,12 +7,10 @@
 }
 
 .section-news__list {
-  margin: 0;
-  padding: 0;
+  @include list-unstyled();
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: none;
 }
 
 .section-news__item {

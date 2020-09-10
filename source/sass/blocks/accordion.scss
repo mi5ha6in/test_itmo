@@ -1,9 +1,7 @@
 .accordion__list {
+  @include list-unstyled();
   font-size: 16px;
   line-height: 1.5;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .accordion__item {
@@ -11,6 +9,7 @@
   border-radius: 8px;
   padding: 8px 16px;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .accordion__content {
@@ -37,7 +36,7 @@
 }
 
 .accordion__heading--active svg {
-  fill: #832ab9;
+  fill: $violet;
   transform: rotate(180deg);
 }
 

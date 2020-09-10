@@ -2,8 +2,8 @@
   font-family: inherit;
   font-size: 12px;
   padding: 8px 24px;
-  background-color: #f21f5b;
-  color: #f7f9fe;
+  background-color: $basic-red;
+  color: $content-white;
   line-height: 1;
   text-decoration: none;
   border: none;
@@ -15,7 +15,7 @@
 
 .button:hover,
 .button:focus {
-  background-color: #d20c44;
+  background-color: $accent-red;
 }
 
 .button--email {

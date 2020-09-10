@@ -30,7 +30,7 @@ $slider-height: 290px;
   justify-content: center;
   font-size: 12px;
   line-height: 1.5;
-  color: #f7f9fe;
+  color: $content-white;
 }
 
 .slider__wrapper {
@@ -112,9 +112,5 @@ $slider-height: 290px;
 
   .slider__img {
     height: $slider-height;
-  }
-
-  .slider__control-prev,
-  .slider__control-next {
   }
 }
