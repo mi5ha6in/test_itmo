@@ -76,18 +76,14 @@ $slider-height: 290px;
   }
 
   .slider__wrapper {
-    max-width: 600px;
+    width: 768px;
+    max-width: none;
   }
 
   .slider__control-prev svg,
   .slider__control-next svg {
     width: 40px;
     height: 40px;
-  }
-
-  .slider__control-prev,
-  .slider__control-next {
-    width: 15%;
   }
 }
 
@@ -103,7 +99,7 @@ $slider-height: 290px;
   }
 
   .slider__wrapper {
-    max-width: 1216px;
+    width: 1216px;
   }
 
   .slider__text {
@@ -120,6 +116,5 @@ $slider-height: 290px;
 
   .slider__control-prev,
   .slider__control-next {
-    width: 18%;
   }
 }

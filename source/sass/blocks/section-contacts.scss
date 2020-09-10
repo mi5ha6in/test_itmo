@@ -1,0 +1,41 @@
+.section-contacts {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  padding-top: 250px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section-contacts__wrapper {
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 1;
+  max-width: 1218px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .section-contacts {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    height: 456px;
+  }
+
+  .section-contacts__wrapper {
+    position: relative;
+    background-color: transparent;
+  }
+
+  .section-contacts__contacts {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+  }
+}

@@ -4,14 +4,52 @@
   padding: 8px 24px;
   background-color: #f21f5b;
   color: #f7f9fe;
-  line-height: 32px;
+  line-height: 1;
   text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
   border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #d20c44;
+}
+
+.button--email {
+  position: relative;
+  padding-left: 47px;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/mail-icon.svg");
+    background-repeat: no-repeat;
+    top: 7px;
+    left: 16px;
+  }
 }
 
 
 @media (min-width: $tablet-width) {
   .button {
     font-size: 16px;
+    line-height: 22px;
+  }
+
+  .button--email {
+    padding: 9px 24px 9px 52px;
+    border-radius: 50px;
+
+    &::after {
+      top: 14px;
+      left: 24px;
+    }
   }
 }
+
