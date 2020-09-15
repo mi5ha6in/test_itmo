@@ -70,7 +70,7 @@
     max-width: 1218px;
     margin-left: auto;
     margin-right: auto;
-    padding: 32px 0 16px;
+    padding: 32px 16px 16px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -109,6 +109,8 @@
     max-width: 1218px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .page-footer__rules:not(:last-child) {
