@@ -11,7 +11,7 @@ $slider-height: 290px;
   object-fit: cover;
 }
 
-.slider__titel {
+.slider__title {
   font-family: "Muller", "Helvetica", sans-serif;
   font-size: 28px;
   font-weight: 700;
@@ -56,7 +56,7 @@ $slider-height: 290px;
 @media (min-width: $tablet-width) {
   $slider-height: 400px;
 
-  .slider__titel {
+  .slider__title {
     font-size: 42px;
     margin-bottom: 32px;
   }
@@ -90,7 +90,7 @@ $slider-height: 290px;
 @media (min-width: $desktop-width) {
   $slider-height: 484px;
 
-  .slider__titel {
+  .slider__title {
     font-size: 56px;
   }
 
